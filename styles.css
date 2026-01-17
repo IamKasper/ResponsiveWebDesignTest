@@ -198,14 +198,18 @@ main {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
     transition: transform 0.3s ease,
                 box-shadow 0.3s ease,
-                background-color var(--transition-speed) ease;
+                background-color var(--transition-speed) ease,
+                border-color 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25),
+                0 0 20px var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .card h3 {
