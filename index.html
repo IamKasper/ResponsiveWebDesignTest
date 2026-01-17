@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Theme Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Test Site</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#cards">Cards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn">
+                <span class="theme-icon">☀️</span>
+                <span id="theme-text">Light</span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to Test Site</h1>
+            <p>This is a test website with various UI elements.</p>
+        </section>
+
+        <section id="cards" class="cards-section">
+            <h2>Card Gallery</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Card One</h3>
+                    <p>This is test text for the first card. It demonstrates the grid layout and theme colors.</p>
+                </div>
+                <div class="card">
+                    <h3>Card Two</h3>
+                    <p>This is test text for the second card. Notice how the colors change with the theme.</p>
+                </div>
+                <div class="card">
+                    <h3>Card Three</h3>
+                    <p>This is test text for the third card. The accent color remains lime green in both themes.</p>
+                </div>
+                <div class="card">
+                    <h3>Card Four</h3>
+                    <p>This is test text for the fourth card. The grid layout is responsive to different screen sizes.</p>
+                </div>
+                <div class="card">
+                    <h3>Card Five</h3>
+                    <p>This is test text for the fifth card. Test content to fill the grid layout.</p>
+                </div>
+                <div class="card">
+                    <h3>Card Six</h3>
+                    <p>This is test text for the sixth card. More test content for demonstration.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>About This Site</h2>
+            <p>This site demonstrates responsive web design principles including:</p>
+            <ul>
+                <li>Flexbox navigation bar</li>
+                <li>CSS Grid card layout</li>
+                <li>Light, dark, and high contrast themes</li>
+                <li>Animated theme toggle button</li>
+                <li>System preference detection</li>
+                <li>LocalStorage persistence</li>
+                <li>Smooth color transitions</li>
+                <li>Responsive media queries</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact Section</h2>
+            <p>This is test text for the contact section. More content to demonstrate the layout and theme.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Test Site</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
